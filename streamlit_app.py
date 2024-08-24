@@ -3,7 +3,9 @@ import requests
 import time
 
 # FastAPI backend URL
-API_URL = "http://localhost:8000"  # Adjust if your FastAPI app is running on a different port
+API_URL = "https://emoji-content-generator.onrender.com"  # Replace with your Render deployment URL
+
+
 
 st.title("Emoji Content Generator")
 

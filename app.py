@@ -15,6 +15,10 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 app = FastAPI()
 
+@app.get("/")
+def read_root():
+    return {"message": "Welcome to the Emoji Content Generator!"}
+
 # Define available models
 AVAILABLE_MODELS = [
     "llama-3.1-8b-instant",
