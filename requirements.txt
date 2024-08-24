@@ -2,3 +2,6 @@ fastapi
 streamlit
 groq
 uvicorn
+pydantic
+python-dotenv
+requests
